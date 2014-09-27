@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/summaryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Summary" />
+
+    <TextView
+        android:id="@+id/totalTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summaryTitle"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/total_todo" />
+
+    <TextView
+        android:id="@+id/uncheckedTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalTodo"
+        android:layout_below="@+id/totalTodo"
+        android:layout_marginTop="16dp"
+        android:text="@string/todo_unchecked" />
+
+    <TextView
+        android:id="@+id/checkedTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalTodo"
+        android:layout_below="@+id/uncheckedTodo"
+        android:layout_marginTop="18dp"
+        android:text="@string/todo_checked" />
+
+    <TextView
+        android:id="@+id/totalArchive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalTodo"
+        android:layout_centerVertical="true"
+        android:text="@string/total_archive" />
+
+    <TextView
+        android:id="@+id/checkedArchive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalTodo"
+        android:layout_below="@+id/uncheckedArchive"
+        android:layout_marginTop="14dp"
+        android:text="@string/archive_checked" />
+
+    <TextView
+        android:id="@+id/uncheckedArchive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalTodo"
+        android:layout_below="@+id/totalArchive"
+        android:layout_marginTop="17dp"
+        android:text="@string/archive_unchecked" />
+
+</RelativeLayout>

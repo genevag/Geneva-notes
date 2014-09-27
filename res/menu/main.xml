@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ca.ualberta.geneva.geneva_notes.MainActivity" >
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="@string/action_add"
+        android:icon="@drawable/ic_action_new"
+        android:onClick="addNewItem" />
+    
+    <item
+        android:id="@+id/action_email"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/action_email"
+        android:icon="@drawable/ic_action_email" >
+        <menu>
+            <item android:id="@+id/popupAll"
+                android:title="@string/popup_all" android:onClick="emailAction"/>
+            
+            <item android:id="@+id/popupTodo"
+                android:title="@string/popup_todo" android:onClick="emailAction"/>
+        </menu>
+    </item>
+
+</menu>

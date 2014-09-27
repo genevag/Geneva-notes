@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_unarchive"
+          android:icon="@drawable/ic_action_not_important"
+          android:title="@string/action_unarchive"
+          android:showAsAction="always"/>
+    
+    <item android:id="@+id/action_email_archive"
+          android:icon="@drawable/ic_action_email"
+          android:title="@string/action_email"
+          android:showAsAction="always"/>
+    
+    <item android:id="@+id/action_discard"
+          android:icon="@drawable/ic_action_discard"
+          android:title="@string/action_discard"
+          android:showAsAction="always"/>
+
+</menu>

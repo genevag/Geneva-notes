@@ -3,7 +3,7 @@ Geneva-notes
 
 CMPUT 301 - Assignment 1 - Simple Todo List application where users can todo items, archive them, or email a todo list.
 
-Application name is : Geneva-notes
+Application name in the launcher is : geneva-notes
 
 Icons in the drawable folders used for the menu bar icons are from : https://developer.android.com/design/downloads/index.html#action-bar-icon-pack 2014-09-06
 
